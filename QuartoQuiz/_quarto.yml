@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "QuartoQuiz"
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
+  repo-url: https://github.com/keerthyr-maker/qtm350-quiz02
+  repo-actions: [issue, source]
+  repo-branch: gh-pages
+
+  navbar: 
+    left:
+      - href: index.qmd
+        text: Home
+      - href: life-gdp.qmd
+        text: Life GDP
+      - href: life-population.qmd
+        text: Life Population
+      - href: country.qmd
+        text: Country
+        
+
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+
+
+

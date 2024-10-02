@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "life-population.html",
+    "href": "life-population.html",
+    "title": "The Population Size and Life Expectancy of countries in the GapMinder dataset",
+    "section": "",
+    "text": "This page will show the relationship between the population size and life expectancy of countries in the GapMinder dataset\nimport pandas as pd import matplotlib.pyplot as plt\ngapminder = pd.read_csv(“/Users/keerthyrangan/Downloads/gapminder.csv”)\nplt.axes() plt.scatter(x=gapminder[“life_expectancy”],y=gapminder[“population_millions”]) plt.title(“Life Expectancy and Population”)\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "life-gdp.html",
+    "href": "life-gdp.html",
+    "title": "The GDP and Life Expectancy of countries in the GapMinder dataset",
+    "section": "",
+    "text": "This page will show the relationship between the population size and life expectancy of countries in the GapMinder dataset\nimport pandas as pd import matplotlib.pyplot as plt\ngapminder = pd.read_csv(“/Users/keerthyrangan/Downloads/gapminder.csv”)\nplt.axes() plt.scatter(x=gapminder[“life_expectancy”],y=gapminder[“gdp_per_capita”]) plt.title(“Life Expectancy and Population”)\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "country.html",
+    "href": "country.html",
+    "title": "The GDP, Life Expectancy, and Population Size of countries in the GapMinder dataset",
+    "section": "",
+    "text": "This page will show the relationship between the GDP, life expectancy, and population size of countries in the GapMinder dataset\nimport pandas as pd import matplotlib.pyplot as plt import plotly.express as px gapminder = pd.read_csv(“/Users/keerthyrangan/Downloads/gapminder.csv”)\nfig = px.scatter(x = gapminder[“gdp_per_capita”], y = gapminder[“life_expectancy”],size =gapminder[“population_millions”])\nfig.show\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GapMinder Dataset",
+    "section": "",
+    "text": "The gapminder dataset shows the different characteristics of a country, such as the life expectancy, population, and GDP per capita every 5 years.\nLife Expectancy and GDP Per Capita: &lt;life-gdp.qmd&gt;\nLife Expectancy and Population: &lt;life-population.qmd&gt;\nCountry Analysis: &lt;country.qmd&gt;\nTo learn more about Quarto websites visit https://quarto.org/docs/websites\n\n\n\n Back to top"
+  }
+]

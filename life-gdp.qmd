@@ -1,0 +1,16 @@
+---
+title: "The GDP and Life Expectancy of countries in the GapMinder dataset"
+---
+
+This page will show the relationship between the population size and life expectancy of countries in the GapMinder dataset
+
+```{python}
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+gapminder = pd.read_csv("/Users/keerthyrangan/Downloads/gapminder.csv")
+
+plt.axes()
+plt.scatter(x=gapminder["life_expectancy"],y=gapminder["gdp_per_capita"])
+plt.title("Life Expectancy and Population")

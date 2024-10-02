@@ -1,0 +1,16 @@
+---
+title: "GapMinder Dataset"
+---
+
+The gapminder dataset shows the different characteristics of a country, such as the life expectancy, population, and GDP per capita every 5 years.
+
+Life Expectancy and GDP Per Capita: <life-gdp.qmd>
+
+Life Expectancy and Population: <life-population.qmd>
+
+Country Analysis: <country.qmd>
+
+
+
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>
